@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+
+  font-size: 18px;
+}
+
+/* main {
+  display: flex;
+} */
+
+div[class*="row"] {
+  /* display: flex;
+  flex-wrap: wrap;
+  flex: 100%; */
+  width: 100%;
+  float: left;
+}
+
+/* div[class*="column"] {
+  float: left;
+  width: 50%;
+} */
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+}
+
+footer div {
+  width: 50%;
+}
+
+.footer-41 {
+  width: 50%;
+}
+
+.row-1 {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-11 {
+  flex: 30%;
+  margin: 10px;
+}
+
+.column-12 {
+  flex: 70%;
+  margin: 10px;
+}
+
+.column-10 {
+  flex: 100%;
+}
+
+h1,
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.row-2,
+.row-3,
+.row-4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+}
